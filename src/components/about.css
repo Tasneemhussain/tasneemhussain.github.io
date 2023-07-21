@@ -1,0 +1,47 @@
+.about {
+  
+
+   width: auto;
+   margin: 20px;
+  
+ 
+}
+.about-img{
+   height: 600px;
+   width: 800px;
+}
+.line {
+   border-top: 6px solid;
+}
+.abt-title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+.abt-para{
+  font-family: 'Open Sans', sans-serif;
+  /* font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+  color: rgb(59, 52, 52); */
+
+  color: #544837;
+  font-size: 20px;
+  
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+@media screen and (max-width: 900px) {
+   .col-6 {
+     width: 50%;
+   }
+ }
+ 
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .col-6 {
+     width: 100%;
+   }
+ }

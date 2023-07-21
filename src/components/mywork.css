@@ -1,0 +1,79 @@
+.work {
+  height: auto;
+  width: auto;
+}
+.protfolio-img {
+  width: 100%;
+  z-index: -1;
+  padding: 10px;
+  height: 400px;
+}
+.wrk-para {
+  color: #544837;
+  font-size: 18px;
+
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+.title {
+  color: #2f281e;
+  font-size: 36px;
+
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.project-name {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  margin-top: 10px;
+}
+.project-dscrb {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+}
+
+.row-1 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row-1,
+.row-1 > .column-2 {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column-2 {
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after rows */
+.row-1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content-1 {
+  background-color: white;
+  width: 400px;
+  border: rgb(15, 15, 15) solid;
+  margin: 20px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .col-3 {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-3 {
+    width: 100%;
+  }
+}
